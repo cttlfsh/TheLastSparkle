@@ -1,0 +1,958 @@
+fileFormatVersion: 2
+guid: 1926bca296715b94b8f95f3d2c7fc8ad
+timeCreated: 1517023516
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idle_0
+    21300002: Idle_1
+    21300004: Idle_2
+    21300006: Idle_3
+    21300008: Idle_4
+    21300010: Idle_5
+    21300012: Idle_6
+    21300014: Idle_7
+    21300016: Idle_8
+    21300018: Idle_9
+    21300020: Idle_10
+    21300022: Idle_11
+    21300024: Idle_12
+    21300026: Idle_13
+    21300028: Idle_14
+    21300030: Idle_15
+    21300032: Idle_16
+    21300034: Idle_17
+    21300036: Idle_18
+    21300038: Idle_19
+    21300040: Idle_20
+    21300042: Idle_21
+    21300044: Idle_22
+    21300046: Idle_23
+    21300048: Idle_24
+    21300050: Idle_25
+    21300052: Idle_26
+    21300054: Idle_27
+    21300056: Idle_28
+    21300058: Idle_29
+    21300060: Idle_30
+    21300062: Idle_31
+    21300064: Idle_32
+    21300066: Idle_33
+    21300068: Idle_34
+    21300070: Idle_35
+    21300072: Idle_36
+    21300074: Idle_37
+    21300076: Idle_38
+    21300078: Idle_39
+    21300080: Idle_40
+    21300082: Idle_41
+    21300084: Idle_42
+    21300086: Idle_43
+    21300088: Idle_44
+    21300090: Idle_45
+    21300092: Idle_46
+    21300094: Idle_47
+    21300096: Idle_48
+    21300098: Idle_49
+    21300100: Idle_50
+    21300102: Idle_51
+    21300104: Idle_52
+    21300106: Idle_53
+    21300108: Idle_54
+    21300110: Idle_55
+    21300112: Idle_56
+    21300114: Idle_57
+    21300116: Idle_58
+    21300118: Idle_59
+    21300120: Idle_60
+    21300122: Idle_61
+    21300124: Idle_62
+    21300126: Idle_63
+    21300128: Idle_64
+    21300130: Idle_65
+    21300132: Idle_66
+    21300134: Idle_67
+    21300136: Idle_68
+    21300138: Idle_69
+    21300140: Idle_70
+    21300142: Idle_71
+    21300144: Idle_72
+    21300146: Idle_73
+    21300148: Idle_74
+    21300150: Idle_75
+    21300152: Idle_76
+    21300154: Idle_77
+    21300156: Idle_78
+    21300158: Idle_79
+    21300160: Idle_80
+    21300162: Idle_81
+    21300164: Idle_82
+    21300166: Idle_83
+    21300168: Idle_84
+    21300170: Idle_85
+    21300172: Idle_86
+    21300174: Idle_87
+    21300176: Idle_88
+    21300178: Idle_89
+    21300180: Idle_90
+    21300182: Idle_91
+    21300184: Idle_92
+    21300186: Idle_93
+    21300188: Idle_94
+    21300190: Idle_95
+    21300192: Idle_96
+    21300194: Idle_97
+    21300196: Idle_98
+    21300198: Idle_99
+    21300200: Idle_100
+    21300202: Idle_101
+    21300204: Idle_102
+    21300206: Idle_103
+    21300208: Idle_104
+    21300210: Idle_105
+    21300212: Idle_106
+    21300214: Idle_107
+    21300216: Idle_108
+    21300218: Idle_109
+    21300220: Idle_110
+    21300222: Idle_111
+    21300224: Idle_112
+    21300226: Idle_113
+    21300228: Idle_114
+    21300230: Idle_115
+    21300232: Idle_116
+    21300234: Idle_117
+    21300236: Idle_118
+    21300238: Idle_119
+    21300240: Idle_120
+    21300242: Idle_121
+    21300244: Idle_122
+    21300246: Idle_123
+    21300248: Idle_124
+    21300250: Idle_125
+    21300252: Idle_126
+    21300254: Idle_127
+    21300256: Idle_128
+    21300258: Idle_129
+    21300260: Idle_130
+    21300262: Idle_131
+    21300264: Idle_132
+    21300266: Idle_133
+    21300268: Idle_134
+    21300270: Idle_135
+    21300272: Idle_136
+    21300274: Idle_137
+    21300276: Idle_138
+    21300278: Idle_139
+    21300280: Idle_140
+    21300282: Idle_141
+    21300284: Idle_142
+    21300286: Idle_143
+    21300288: Idle_144
+    21300290: Idle_145
+    21300292: Idle_146
+    21300294: Idle_147
+    21300296: Idle_148
+    21300298: Idle_149
+    21300300: Idle_150
+    21300302: Idle_151
+    21300304: Idle_152
+    21300306: Idle_153
+    21300308: Idle_154
+    21300310: Idle_155
+    21300312: Idle_156
+    21300314: Idle_157
+    21300316: Idle_158
+    21300318: Idle_159
+    21300320: Idle_160
+    21300322: Idle_161
+    21300324: Idle_162
+    21300326: Idle_163
+    21300328: Idle_164
+    21300330: Idle_165
+    21300332: Idle_166
+    21300334: Idle_167
+    21300336: Idle_168
+    21300338: Idle_169
+    21300340: Idle_170
+    21300342: Idle_171
+    21300344: Idle_172
+    21300346: Idle_173
+    21300348: Idle_174
+    21300350: Idle_175
+    21300352: Idle_176
+    21300354: Idle_177
+    21300356: Idle_178
+    21300358: Idle_179
+    21300360: Idle_180
+    21300362: Idle_181
+    21300364: Idle_182
+    21300366: Idle_183
+    21300368: Idle_184
+    21300370: Idle_185
+    21300372: Idle_186
+    21300374: Idle_187
+    21300376: Idle_188
+    21300378: Idle_189
+    21300380: Idle_190
+    21300382: Idle_191
+    21300384: Idle_192
+    21300386: Idle_193
+    21300388: Idle_194
+    21300390: Idle_195
+    21300392: Idle_196
+    21300394: Idle_197
+    21300396: Idle_198
+    21300398: Idle_199
+    21300400: Idle_200
+    21300402: Idle_201
+    21300404: Idle_202
+    21300406: Idle_203
+    21300408: Idle_204
+    21300410: Idle_205
+    21300412: Idle_206
+    21300414: Idle_207
+    21300416: Idle_208
+    21300418: Idle_209
+    21300420: Idle_210
+    21300422: Idle_211
+    21300424: Idle_212
+    21300426: Idle_213
+    21300428: Idle_214
+    21300430: Idle_215
+    21300432: Idle_216
+    21300434: Idle_217
+    21300436: Idle_218
+    21300438: Idle_219
+    21300440: Idle_220
+    21300442: Idle_221
+    21300444: Idle_222
+    21300446: Idle_223
+    21300448: Idle_224
+    21300450: Idle_225
+    21300452: Idle_226
+    21300454: Idle_227
+    21300456: Idle_228
+    21300458: Idle_229
+    21300460: Idle_230
+    21300462: Idle_231
+    21300464: Idle_232
+    21300466: Idle_233
+    21300468: Idle_234
+    21300470: Idle_235
+    21300472: Idle_236
+    21300474: Idle_237
+    21300476: Idle_238
+    21300478: Idle_239
+    21300480: Idle_240
+    21300482: Idle_241
+    21300484: Idle_242
+    21300486: Idle_243
+    21300488: Idle_244
+    21300490: Idle_245
+    21300492: Idle_246
+    21300494: Idle_247
+    21300496: Idle_248
+    21300498: Idle_249
+    21300500: Idle_250
+    21300502: Idle_251
+    21300504: Idle_252
+    21300506: Idle_253
+    21300508: Idle_254
+    21300510: Idle_255
+    21300512: Idle_256
+    21300514: Idle_257
+    21300516: Idle_258
+    21300518: Idle_259
+    21300520: Idle_260
+    21300522: Idle_261
+    21300524: Idle_262
+    21300526: Idle_263
+    21300528: Idle_264
+    21300530: Idle_265
+    21300532: Idle_266
+    21300534: Idle_267
+    21300536: Idle_268
+    21300538: Idle_269
+    21300540: Idle_270
+    21300542: Idle_271
+    21300544: Idle_272
+    21300546: Idle_273
+    21300548: Idle_274
+    21300550: Idle_275
+    21300552: Idle_276
+    21300554: Idle_277
+    21300556: Idle_278
+    21300558: Idle_279
+    21300560: Idle_280
+    21300562: Idle_281
+    21300564: Idle_282
+    21300566: Idle_283
+    21300568: Idle_284
+    21300570: Idle_285
+    21300572: Idle_286
+    21300574: Idle_287
+    21300576: Idle_288
+    21300578: Idle_289
+    21300580: Idle_290
+    21300582: Idle_291
+    21300584: Idle_292
+    21300586: Idle_293
+    21300588: Idle_294
+    21300590: Idle_295
+    21300592: Idle_296
+    21300594: Idle_297
+    21300596: Idle_298
+    21300598: Idle_299
+    21300600: Idle_300
+    21300602: Idle_301
+    21300604: Idle_302
+    21300606: Idle_303
+    21300608: Idle_304
+    21300610: Idle_305
+    21300612: Idle_306
+    21300614: Idle_307
+    21300616: Idle_308
+    21300618: Idle_309
+    21300620: Idle_310
+    21300622: Idle_311
+    21300624: Idle_312
+    21300626: Idle_313
+    21300628: Idle_314
+    21300630: Idle_315
+    21300632: Idle_316
+    21300634: Idle_317
+    21300636: Idle_318
+    21300638: Idle_319
+    21300640: Idle_320
+    21300642: Idle_321
+    21300644: Idle_322
+    21300646: Idle_323
+    21300648: Idle_324
+    21300650: Idle_325
+    21300652: Idle_326
+    21300654: Idle_327
+    21300656: Idle_328
+    21300658: Idle_329
+    21300660: Idle_330
+    21300662: Idle_331
+    21300664: Idle_332
+    21300666: Idle_333
+    21300668: Idle_334
+    21300670: Idle_335
+    21300672: Idle_336
+    21300674: Idle_337
+    21300676: Idle_338
+    21300678: Idle_339
+    21300680: Idle_340
+    21300682: Idle_341
+    21300684: Idle_342
+    21300686: Idle_343
+    21300688: Idle_344
+    21300690: Idle_345
+    21300692: Idle_346
+    21300694: Idle_347
+    21300696: Idle_348
+    21300698: Idle_349
+    21300700: Idle_350
+    21300702: Idle_351
+    21300704: Idle_352
+    21300706: Idle_353
+    21300708: Idle_354
+    21300710: Idle_355
+    21300712: Idle_356
+    21300714: Idle_357
+    21300716: Idle_358
+    21300718: Idle_359
+    21300720: Idle_360
+    21300722: Idle_361
+    21300724: Idle_362
+    21300726: Idle_363
+    21300728: Idle_364
+    21300730: Idle_365
+    21300732: Idle_366
+    21300734: Idle_367
+    21300736: Idle_368
+    21300738: Idle_369
+    21300740: Idle_370
+    21300742: Idle_371
+    21300744: Idle_372
+    21300746: Idle_373
+    21300748: Idle_374
+    21300750: Idle_375
+    21300752: Idle_376
+    21300754: Idle_377
+    21300756: Idle_378
+    21300758: Idle_379
+    21300760: Idle_380
+    21300762: Idle_381
+    21300764: Idle_382
+    21300766: Idle_383
+    21300768: Idle_384
+    21300770: Idle_385
+    21300772: Idle_386
+    21300774: Idle_387
+    21300776: Idle_388
+    21300778: Idle_389
+    21300780: Idle_390
+    21300782: Idle_391
+    21300784: Idle_392
+    21300786: Idle_393
+    21300788: Idle_394
+    21300790: Idle_395
+    21300792: Idle_396
+    21300794: Idle_397
+    21300796: Idle_398
+    21300798: Idle_399
+    21300800: Idle_400
+    21300802: Idle_401
+    21300804: Idle_402
+    21300806: Idle_403
+    21300808: Idle_404
+    21300810: Idle_405
+    21300812: Idle_406
+    21300814: Idle_407
+    21300816: Idle_408
+    21300818: Idle_409
+    21300820: Idle_410
+    21300822: Idle_411
+    21300824: Idle_412
+    21300826: Idle_413
+    21300828: Idle_414
+    21300830: Idle_415
+    21300832: Idle_416
+    21300834: Idle_417
+    21300836: Idle_418
+    21300838: Idle_419
+    21300840: Idle_420
+    21300842: Idle_421
+    21300844: Idle_422
+    21300846: Idle_423
+    21300848: Idle_424
+    21300850: Idle_425
+    21300852: Idle_426
+    21300854: Idle_427
+    21300856: Idle_428
+    21300858: Idle_429
+    21300860: Idle_430
+    21300862: Idle_431
+    21300864: Idle_432
+    21300866: Idle_433
+    21300868: Idle_434
+    21300870: Idle_435
+    21300872: Idle_436
+    21300874: Idle_437
+    21300876: Idle_438
+    21300878: Idle_439
+    21300880: Idle_440
+    21300882: Idle_441
+    21300884: Idle_442
+    21300886: Idle_443
+    21300888: Idle_444
+    21300890: Idle_445
+    21300892: Idle_446
+    21300894: Idle_447
+    21300896: Idle_448
+    21300898: Idle_449
+    21300900: Idle_450
+    21300902: Idle_451
+    21300904: Idle_452
+    21300906: Idle_453
+    21300908: Idle_454
+    21300910: Idle_455
+    21300912: Idle_456
+    21300914: Idle_457
+    21300916: Idle_458
+    21300918: Idle_459
+    21300920: Idle_460
+    21300922: Idle_461
+    21300924: Idle_462
+    21300926: Idle_463
+    21300928: Idle_464
+    21300930: Idle_465
+    21300932: Idle_466
+    21300934: Idle_467
+    21300936: Idle_468
+    21300938: Idle_469
+    21300940: Idle_470
+    21300942: Idle_471
+    21300944: Idle_472
+    21300946: Idle_473
+    21300948: Idle_474
+    21300950: Idle_475
+    21300952: Idle_476
+    21300954: Idle_477
+    21300956: Idle_478
+    21300958: Idle_479
+    21300960: Idle_480
+    21300962: Idle_481
+    21300964: Idle_482
+    21300966: Idle_483
+    21300968: Idle_484
+    21300970: Idle_485
+    21300972: Idle_486
+    21300974: Idle_487
+    21300976: Idle_488
+    21300978: Idle_489
+    21300980: Idle_490
+    21300982: Idle_491
+    21300984: Idle_492
+    21300986: Idle_493
+    21300988: Idle_494
+    21300990: Idle_495
+    21300992: Idle_496
+    21300994: Idle_497
+    21300996: Idle_498
+    21300998: Idle_499
+    21301000: Idle_500
+    21301002: Idle_501
+    21301004: Idle_502
+    21301006: Idle_503
+    21301008: Idle_504
+    21301010: Idle_505
+    21301012: Idle_506
+    21301014: Idle_507
+    21301016: Idle_508
+    21301018: Idle_509
+    21301020: Idle_510
+    21301022: Idle_511
+    21301024: Idle_512
+    21301026: Idle_513
+    21301028: Idle_514
+    21301030: Idle_515
+    21301032: Idle_516
+    21301034: Idle_517
+    21301036: Idle_518
+    21301038: Idle_519
+    21301040: Idle_520
+    21301042: Idle_521
+    21301044: Idle_522
+    21301046: Idle_523
+    21301048: Idle_524
+    21301050: Idle_525
+    21301052: Idle_526
+    21301054: Idle_527
+    21301056: Idle_528
+    21301058: Idle_529
+    21301060: Idle_530
+    21301062: Idle_531
+    21301064: Idle_532
+    21301066: Idle_533
+    21301068: Idle_534
+    21301070: Idle_535
+    21301072: Idle_536
+    21301074: Idle_537
+    21301076: Idle_538
+    21301078: Idle_539
+    21301080: Idle_540
+    21301082: Idle_541
+    21301084: Idle_542
+    21301086: Idle_543
+    21301088: Idle_544
+    21301090: Idle_545
+    21301092: Idle_546
+    21301094: Idle_547
+    21301096: Idle_548
+    21301098: Idle_549
+    21301100: Idle_550
+    21301102: Idle_551
+    21301104: Idle_552
+    21301106: Idle_553
+    21301108: Idle_554
+    21301110: Idle_555
+    21301112: Idle_556
+    21301114: Idle_557
+    21301116: Idle_558
+    21301118: Idle_559
+    21301120: Idle_560
+    21301122: Idle_561
+    21301124: Idle_562
+    21301126: Idle_563
+    21301128: Idle_564
+    21301130: Idle_565
+    21301132: Idle_566
+    21301134: Idle_567
+    21301136: Idle_568
+    21301138: Idle_569
+    21301140: Idle_570
+    21301142: Idle_571
+    21301144: Idle_572
+    21301146: Idle_573
+    21301148: Idle_574
+    21301150: Idle_575
+    21301152: Idle_576
+    21301154: Idle_577
+    21301156: Idle_578
+    21301158: Idle_579
+    21301160: Idle_580
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_9
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_10
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_11
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_12
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_13
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_15
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_16
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_17
+      rect:
+        serializedVersion: 2
+        x: 4743
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_18
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Idle_19
+      rect:
+        serializedVersion: 2
+        x: 5301
+        y: 0
+        width: 279
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

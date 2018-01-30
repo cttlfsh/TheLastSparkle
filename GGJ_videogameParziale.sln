@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGJ_videogameParziale", "Assembly-CSharp.csproj", "{B135B831-AF46-5DA5-BE81-C4280BCAB99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGJ_videogameParziale", "Assembly-CSharp-Editor.csproj", "{D8F675CC-8789-52BD-F024-F9B395AC4FED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B135B831-AF46-5DA5-BE81-C4280BCAB99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B135B831-AF46-5DA5-BE81-C4280BCAB99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B135B831-AF46-5DA5-BE81-C4280BCAB99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B135B831-AF46-5DA5-BE81-C4280BCAB99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F675CC-8789-52BD-F024-F9B395AC4FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F675CC-8789-52BD-F024-F9B395AC4FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F675CC-8789-52BD-F024-F9B395AC4FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F675CC-8789-52BD-F024-F9B395AC4FED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
