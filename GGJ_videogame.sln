@@ -1,9 +1,8 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGJ_videogame", "Assembly-CSharp.csproj", "{2B9B6028-AFE3-F7C1-E707-D41C2CA5236D}"
+Project("{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2B9B6028-AFE3-F7C1-E707-D41C2CA5236D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGJ_videogame", "Assembly-CSharp-Editor.csproj", "{208BC2C3-8DDF-C8CC-3490-6182F2D85710}"
+Project("{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{208BC2C3-8DDF-C8CC-3490-6182F2D85710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2667,8 +2667,8 @@ GameObject:
   - component: {fileID: 495874065}
   - component: {fileID: 495874064}
   - component: {fileID: 495874062}
-  - component: {fileID: 495874061}
   - component: {fileID: 495874063}
+  - component: {fileID: 495874061}
   m_Layer: 0
   m_Name: Model
   m_TagString: Player
@@ -2738,20 +2738,17 @@ Animator:
 --- !u!114 &495874063
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114104869779042304, guid: 7b9b72e2a8c95564f889d61654507fff,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 495874059}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e43c5079582ebb4aac0fa9a86717aad, type: 3}
+  m_Script: {fileID: 11500000, guid: 9aa9b90be35a4e54085e3d4f5a7fe950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementForces: 800
-  jumpingForces: 325
-  maxNumberOfJumps: 2
-  PLight: {fileID: 774705380}
-  jumps: 0
+  MaxThreshold: 15.18
+  MaxSpeed: 26.24
+  JumpForce: 500
 --- !u!50 &495874064
 Rigidbody2D:
   serializedVersion: 4
@@ -2765,7 +2762,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 4
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -7472,7 +7469,7 @@ Prefab:
     - target: {fileID: 114852663979301872, guid: 9cf988b6389e8e743816067ae3904c74,
         type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9cf988b6389e8e743816067ae3904c74, type: 2}
