@@ -8,6 +8,7 @@ TagManager:
   - Collectible
   - hit
   - orb
+  - Platform
   layers:
   - Default
   - TransparentFX

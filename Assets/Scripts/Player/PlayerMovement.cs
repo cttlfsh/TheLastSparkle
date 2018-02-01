@@ -106,7 +106,6 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		if (collision.gameObject.CompareTag("Collectible"))
 		{
-			Debug.Log ("Colluttorio");
 			PLight.intensity = PLight.intensity * 1.5f;
 
 			FindObjectOfType<AudioManager> ().Play ("magic");
