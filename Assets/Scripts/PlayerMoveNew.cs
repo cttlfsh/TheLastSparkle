@@ -36,18 +36,22 @@ public class PlayerMoveNew : MonoBehaviour
 		Debug.Log(_playerRb.velocity.y);
 		//Movement section
 		
-		_playerAnim.SetBool ("isWalking", false);
+		//_playerAnim.SetBool ("isWalking", false);
 		
 		if (_playerRb.velocity.x != 0.0f)
 		{
-			_playerAnim.SetBool ("isWalking", true);
+			if (!_playerAnim.GetBool("isWalking")&&!_playerAnim.GetBool("isFalling"))
+				_playerAnim.SetBool ("isWalking", true);
 			_multi+=300;
 			_multi = _multi % 262144;
 		}
 		else if (_playerRb.velocity.x == 0.0f)
+		{
+			_playerAnim.SetBool("isWalking", false);
 			_multi = 1024;
-		
-		
+		}
+
+
 		_incrSpeed = (float) Math.Log(_multi, 2);
 		float x = Input.GetAxis("Horizontal");
 		if (x < 0)
@@ -74,7 +78,7 @@ public class PlayerMoveNew : MonoBehaviour
 		
 		if (_playerRb.velocity.y < 0.0f)
 		{
-			_playerAnim.SetBool("isWalking", false);
+			Debug.Log("Falling");
 			_playerAnim.SetBool("isJumping", false);
 			_playerAnim.SetBool("isFalling", true);
 		}
