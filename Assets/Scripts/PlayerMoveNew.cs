@@ -78,16 +78,17 @@ public class PlayerMoveNew : MonoBehaviour
 		
 		if (_playerRb.velocity.y < 0.0f)
 		{
-			Debug.Log("Falling");
+			_playerRb.gravityScale = 2;
 			_playerAnim.SetBool("isJumping", false);
 			_playerAnim.SetBool("isFalling", true);
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D coll)
+	void OnTriggerEnter2D(Collider2D coll)
 	{
 		if (coll.gameObject.CompareTag("Ground"))
 		{
+			_playerRb.gravityScale = 1;
 			_playerAnim.SetBool("isFalling", false);
 			_playerAnim.SetBool("isJumping", false);
 			_onGround = true;
