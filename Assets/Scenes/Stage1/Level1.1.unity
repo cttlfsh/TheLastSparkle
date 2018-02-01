@@ -2746,7 +2746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aa9b90be35a4e54085e3d4f5a7fe950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxThreshold: 15.18
+  MaxThreshold: 18
   MaxSpeed: 26.24
   JumpForce: 500
 --- !u!50 &495874064

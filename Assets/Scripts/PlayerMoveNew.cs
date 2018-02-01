@@ -33,21 +33,21 @@ public class PlayerMoveNew : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		if (_playerRb.velocity.y < 0.0f) {
-			_playerAnim.SetBool("isJumping", false);
-			_playerAnim.SetBool("isFalling", true);
-		}
-
-		_playerAnim.SetBool ("isWalking", false);
+		Debug.Log(_playerRb.velocity.y);
 		//Movement section
-		if (_playerRb.velocity.magnitude > 0f)
+		
+		_playerAnim.SetBool ("isWalking", false);
+		
+		if (_playerRb.velocity.x != 0.0f)
 		{
 			_playerAnim.SetBool ("isWalking", true);
 			_multi+=300;
 			_multi = _multi % 262144;
 		}
-		else if (_playerRb.velocity.magnitude == 0f)
+		else if (_playerRb.velocity.x == 0.0f)
 			_multi = 1024;
+		
+		
 		_incrSpeed = (float) Math.Log(_multi, 2);
 		float x = Input.GetAxis("Horizontal");
 		if (x < 0)
@@ -70,6 +70,13 @@ public class PlayerMoveNew : MonoBehaviour
 			_onGround = false;
 			_playerRb.AddForce(Vector2.up * JumpForce);
 			_playerAnim.SetBool("isJumping", true);
+		}
+		
+		if (_playerRb.velocity.y < 0.0f)
+		{
+			_playerAnim.SetBool("isWalking", false);
+			_playerAnim.SetBool("isJumping", false);
+			_playerAnim.SetBool("isFalling", true);
 		}
 	}
 
